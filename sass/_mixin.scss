@@ -9,6 +9,7 @@
         @content;
     }
 }
+
 @mixin fornewsHeader {
     @media screen and (max-width: 1380px) {
         @content;
@@ -31,6 +32,14 @@
 }
 @mixin forlargemobile {
     @media screen and (max-width: 880px) {
+        @content;
+    }
+}
+
+
+
+@mixin bp1 {
+    @media screen and (max-width: 1200px) {
         @content;
     }
 }
